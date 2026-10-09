@@ -1,0 +1,225 @@
+/* A focused, breathable checkout layout. */
+.checkout-notice {
+  background: rgb(35 24 22 / 62%);
+  padding: 32px 20px;
+}
+
+.checkout-notice > div {
+  width: min(620px, 100%);
+  padding: 38px 42px 28px;
+  border-radius: 2px;
+  max-height: calc(100dvh - 40px);
+  overflow-y: auto;
+}
+
+.checkout-notice h2 {
+  font-size: 42px;
+  letter-spacing: -.02em;
+}
+
+.checkout-notice > div > span {
+  max-width: 390px;
+  margin: 0 auto;
+}
+
+.checkout-form {
+  display: grid;
+  gap: 18px;
+  margin-top: 28px;
+}
+
+.checkout-form fieldset {
+  background: #fffdf9;
+  border: 1px solid #e3d8cb;
+  border-radius: 2px;
+  margin: 0;
+  padding: 18px;
+}
+
+.checkout-form legend {
+  color: #542f29;
+  font-size: 10px;
+  padding: 0 5px;
+}
+
+.checkout-form fieldset:first-child {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 14px;
+  row-gap: 14px;
+}
+
+.checkout-form fieldset:first-child > label:nth-of-type(3),
+.checkout-address-row {
+  grid-column: 1 / -1;
+}
+
+.checkout-form label {
+  color: #675e56;
+  font-size: 9px;
+}
+
+.checkout-form input,
+.checkout-form textarea {
+  background: #fff;
+  border-color: #ded4c8;
+  border-radius: 1px;
+  min-height: 42px;
+  padding: 10px 11px;
+}
+
+.checkout-form textarea { min-height: 72px; }
+.checkout-address-row { gap: 14px; }
+
+.checkout-form fieldset:last-of-type {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.checkout-form fieldset:last-of-type legend { grid-column: 1 / -1; }
+
+.checkout-form .payment-choice {
+  align-items: center;
+  background: #fff;
+  border: 1px solid #ded4c8;
+  color: #3f3631;
+  font-size: 11px;
+  line-height: 1.35;
+  min-height: 52px;
+  padding: 10px;
+}
+
+.checkout-form .payment-choice:has(input:checked) {
+  background: #f7eeeb;
+  border-color: #8c5452;
+}
+
+.checkout-form .button {
+  min-height: 48px;
+  margin: 0;
+}
+
+/* Keep the red order button visible while the delivery form scrolls. */
+.checkout-form .button {
+  bottom: 0;
+  box-shadow: 0 -10px 16px #f8f4ed;
+  position: sticky;
+  z-index: 2;
+}
+
+.checkout-browse { font-size: 9px !important; }
+
+@media (max-width: 560px) {
+  .checkout-notice { align-items: flex-start; padding: 14px; }
+  .checkout-notice > div { padding: 34px 20px 22px; }
+  .checkout-notice h2 { font-size: 36px; }
+  .checkout-form fieldset:first-child,
+  .checkout-form fieldset:last-of-type { grid-template-columns: 1fr; }
+  .checkout-form fieldset:last-of-type legend { grid-column: auto; }
+  .checkout-form fieldset:first-child > label:nth-of-type(3),
+  .checkout-address-row { grid-column: auto; }
+  .checkout-address-row { grid-template-columns: 1fr; }
+}
+
+/* Keep the checkout in one clear, predictable sequence. */
+.checkout-form fieldset { position: relative; padding-top: 24px; }
+.checkout-form legend {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 11px;
+}
+
+.checkout-form fieldset:first-child legend::before,
+.checkout-form fieldset:last-of-type legend::before {
+  align-items: center;
+  background: #712d33;
+  border-radius: 50%;
+  color: #fff;
+  content: "01";
+  display: inline-flex;
+  font: 700 9px Manrope;
+  height: 21px;
+  justify-content: center;
+  width: 21px;
+}
+
+.checkout-form fieldset:last-of-type legend::before { content: "02"; }
+
+.checkout-form fieldset:last-of-type {
+  grid-template-columns: 1fr;
+  gap: 8px;
+}
+
+.checkout-form fieldset:last-of-type legend { grid-column: auto; }
+
+.checkout-form .payment-choice {
+  justify-content: flex-start;
+  min-height: 46px;
+}
+
+.checkout-form .button::before {
+  color: #e6c8bd;
+  content: "03";
+  margin-right: 10px;
+}
+
+/* Keep related details together so the full checkout, including its red button, fits on screen. */
+.checkout-form fieldset:first-child {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.checkout-form fieldset:first-child > label:nth-of-type(3),
+.checkout-address-row { grid-column: 1 / -1; }
+
+.checkout-address-row {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.checkout-form label {
+  display: grid;
+  width: 100%;
+}
+
+.checkout-form input,
+.checkout-form textarea { width: 100%; }
+
+.checkout-form fieldset:last-of-type {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.checkout-form fieldset:last-of-type legend { grid-column: 1 / -1; }
+
+.checkout-form .payment-choice {
+  font-size: 10px;
+  min-height: 48px;
+}
+
+.location-row { margin-top: 0; }
+
+.pincode-note {
+  color: #7b3034;
+  font: 500 10px Manrope;
+  line-height: 1.4;
+  margin-top: -3px;
+  text-transform: none;
+}
+
+.checkout-form input[readonly] {
+  background: #f4eee6;
+  color: #62584f;
+}
+
+@media (max-width: 560px) {
+  .checkout-form fieldset:first-child,
+  .checkout-form fieldset:last-of-type,
+  .checkout-address-row { grid-template-columns: 1fr; }
+  .checkout-form fieldset:first-child > label:nth-of-type(3),
+  .checkout-address-row { grid-column: auto; }
+  .checkout-form fieldset:last-of-type legend { grid-column: auto; }
+}

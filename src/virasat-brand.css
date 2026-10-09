@@ -1,0 +1,173 @@
+/* VIRASAT — ivory plaster, antique gold and rose-saree palette */
+:root{--virasat-ink:#3a1b12;--virasat-gold:#b77938;--virasat-ivory:#fff4e5;--virasat-rose:#9f5c55;--virasat-moss:#4f5740}
+.store-header{height:116px!important;grid-template-columns:160px minmax(0,1fr) 160px!important}.store-header .store-brand{height:92px!important;width:100%;display:flex;align-items:center;justify-content:center;overflow:hidden;background:transparent}.store-header .virasat-wordmark{display:block;width:100%;height:100%;object-fit:contain;object-position:center;mix-blend-mode:normal}@media(max-width:720px){.store-header{height:92px!important;grid-template-columns:1fr 210px 1fr!important}.store-header .store-brand{height:70px!important;width:210px}.store-header .virasat-wordmark{object-position:center}}
+footer .store-brand{display:flex!important;width:200px;height:128px;align-items:center;justify-content:flex-start!important;overflow:hidden}footer .footer-wordmark{display:block;width:100%;height:100%;object-fit:contain;object-position:left center}@media(max-width:720px){footer .store-brand{width:160px;height:104px}}
+.shop-home{background:var(--virasat-ivory)!important;color:var(--virasat-ink)!important}
+.offer-bar{background:#3a1b12!important;color:#fff4e5!important}.offer-bar span{color:#e6bd7d!important}
+.trust-bar{background:#f4e5d0!important;color:#72513e!important}
+.store-header,.store-nav{background:#fff8ed!important;border-color:#e5cba9!important}
+.store-header{box-shadow:0 5px 20px #70421a0d}
+.store-brand{position:relative;color:var(--virasat-ink)!important;font-family:Georgia,'Times New Roman',serif!important;font-size:48px!important;font-weight:700!important;letter-spacing:.015em!important;line-height:.72!important;text-shadow:0 2px 0 #f4c98f,0 5px 14px #7c461b2e}
+.store-brand::before{content:'✦';position:absolute;left:-17px;top:-11px;color:var(--virasat-gold);font:15px Georgia,serif;text-shadow:none}
+.store-brand span{display:block!important;margin:12px 0 0 5px!important;color:#805044!important;font:600 8px Arial,sans-serif!important;letter-spacing:.43em!important;text-transform:uppercase!important;text-shadow:none}
+.utility,.store-nav{color:#593327!important}.store-nav a:after{background:var(--virasat-gold)!important}.store-nav a:hover{color:#9b5e35!important}
+.store-hero:after{background:linear-gradient(90deg,#3b2015b8,transparent 70%)!important}.store-hero-copy p{color:#f3cc8d!important}.store-hero-copy a,.shop-home .product-feature-meta .quick{background:#8c5049!important;color:#fffaf1!important;border-color:#ddb26c!important}
+.store-hero.virasat-signature{height:auto!important;min-height:0!important;aspect-ratio:auto!important;background:#fffaf8!important;display:flex;align-items:center;justify-content:center;padding:24px 0!important}.store-hero.virasat-signature>img{filter:none!important;object-fit:contain!important;object-position:center!important;width:min(480px,88vw)!important;height:auto!important;box-shadow:0 10px 28px #5b38241c}.store-hero.virasat-signature:after,.store-hero.virasat-signature .store-hero-copy{display:none!important}
+.category-section,.arrival-section{background:#fff7eb!important}.category-section h2,.shop-title h2,.studio-story h2{color:var(--virasat-ink)!important}.category-section h2 i,.shop-title h2 i{color:#9f5c55!important}.category-grid span{background:#fff9ef!important;color:#593327!important}.look-section{background:#f7ebdc!important}.look-section h2 i{color:#9f5c55!important}.look-section a:hover{background:#8c5049!important;border-color:#8c5049!important}
+.shop-home .product-feature{background:#fffaf2!important;border-color:#ead0b2!important}.shop-home .product-feature-meta h3{color:var(--virasat-ink)!important}.shop-home .product-feature-meta b{color:#98594d!important}.studio-story{background:#f0ddc9!important}.studio-story a{color:#8c5049!important}.shop-home footer{background:#3a1b12!important}.shop-home .modal-card .add,.checkout-notice button{background:#8c5049!important}
+.orders-header{background:#fff8ed!important;border-top-color:var(--virasat-gold)!important;border-bottom-color:#e5cba9!important}.orders-header a{color:#5b3325!important}.orders-brand{color:var(--virasat-ink)!important;font-family:Georgia,'Times New Roman',serif!important;font-weight:700;letter-spacing:.04em}.orders-brand span{display:block;color:#805044;font:600 7px Arial,sans-serif;letter-spacing:.35em;text-transform:uppercase;margin-top:4px}.orders-page-content>h1{color:var(--virasat-ink)!important}
+@media(max-width:720px){.store-brand{font-size:34px!important}.store-brand::before{left:-12px;top:-8px;font-size:11px}.store-brand span{font-size:6px!important;margin-top:9px!important;letter-spacing:.34em!important}.store-hero.virasat-signature{height:auto!important;min-height:0!important;padding:14px 0!important}.store-hero.virasat-signature>img{width:min(330px,88vw)!important}}
+
+/* Soft, editorial storefront treatment inspired by the supplied reference. */
+:root{--virasat-ink:#372b3c;--virasat-plum:#65435f;--virasat-blush:#f7e3df;--virasat-peach:#fbeee6;--virasat-lilac:#e9e1ef}
+.shop-home{background:#fffaf8!important;color:var(--virasat-ink)!important}.offer-bar{background:#49364d!important;color:#fffafa!important;padding:10px!important}.offer-bar span{color:#f4c6b9!important}.trust-bar{background:#f8e8e4!important;color:#745965!important}.store-header,.store-nav{background:#fffaf8!important;border-color:#ecdeda!important}.store-header{height:96px!important}.store-brand{color:#3e2d42!important;font-family:Georgia,'Times New Roman',serif!important;font-size:43px!important;font-weight:600!important;letter-spacing:-.04em!important;text-shadow:none!important}.store-brand::before{display:none!important}.store-brand span{color:#a16e75!important;font:600 8px Arial,sans-serif!important;letter-spacing:.36em!important;margin:11px 0 0 4px!important}.utility,.store-nav{color:#574251!important}.store-nav{height:54px!important;gap:42px!important}.store-nav a:after{background:#d98691!important}.store-nav a:hover{color:#b15f70!important}.store-hero{height:610px!important;background:#f7e3df!important}.store-hero>img{filter:brightness(.72) saturate(.75)!important}.store-hero:after{background:linear-gradient(90deg,#5f3a547d,transparent 70%)!important}.store-hero-copy{align-items:flex-start!important;text-align:left!important;padding-left:12vw!important}.store-hero-copy p{color:#ffe1d5!important;font-family:Arial,sans-serif!important}.store-hero-copy h1{font-family:Georgia,'Times New Roman',serif!important;letter-spacing:-.055em!important;text-shadow:none!important}.store-hero-copy a,.shop-home .product-feature-meta .quick{background:#f9e8e1!important;color:#4a3444!important;border:0!important;box-shadow:0 7px 20px #48283721!important}.look-section{background:#fff4f0!important;padding:72px 5.5%!important}.look-section h2{color:#3e2d42!important}.look-section h2 i{color:#c17482!important}.look-section a{border-color:#dbbec3!important;background:#fffaf8!important;color:#594052!important}.look-section a:hover{background:#b76d7b!important;border-color:#b76d7b!important;color:#fff!important}.category-section,.arrival-section{background:#fffaf8!important}.category-section h2,.shop-title h2,.studio-story h2{color:#3e2d42!important}.category-section h2 i,.shop-title h2 i{color:#c17482!important}.category-grid{gap:18px!important}.category-grid a{border-radius:0!important;box-shadow:none!important}.category-grid span{background:#fffaf8f2!important;color:#49364d!important}.shop-home .product-feature{background:transparent!important;border:0!important;box-shadow:none!important;padding:0!important}.shop-home .product-feature .product-image{border-radius:0!important}.shop-home .product-feature-meta h3{color:#3e2d42!important}.shop-home .product-feature-meta b{color:#b15f70!important}.studio-story{background:#f5e6ed!important}.studio-story a{color:#a45d70!important}.feature-strip{background:#5b4159!important}.shop-home footer{background:#3d2e42!important}.shop-home .modal-card .add,.checkout-notice button{background:#b76d7b!important}.orders-header{background:#fffaf8!important;border-top-color:#b76d7b!important}.orders-brand{color:#3e2d42!important}.orders-brand span{color:#a16e75!important}@media(max-width:720px){.store-header{height:78px!important}.store-brand{font-size:30px!important}.store-hero{height:500px!important}.store-hero-copy{align-items:center!important;text-align:center!important;padding:0 24px!important}.store-nav{gap:24px!important}}
+/* Give the illustrated wordmark more presence in the header. */
+.store-header{height:128px!important}
+.store-header .store-brand{height:116px!important}
+.store-header .virasat-wordmark{width:min(100%,520px)!important;transform:scale(1.18)}
+@media(max-width:720px){.store-header{height:96px!important}.store-header .store-brand{height:84px!important}.store-header .virasat-wordmark{transform:scale(1.1)}}
+
+/* A warm, textile-led palette that picks up the ivory, gold and cocoa in the wordmark. */
+:root{--virasat-ivory:#fbf2e6;--virasat-sand:#ead5b9;--virasat-cocoa:#3f281e;--virasat-gold:#ba8441;--virasat-clay:#8b5140}
+.shop-home{background:var(--virasat-ivory)!important;color:var(--virasat-cocoa)!important}
+.offer-bar{background:var(--virasat-cocoa)!important;color:#fff7eb!important}.offer-bar span{color:#e8c17e!important}
+.trust-bar{background:#ecd9bf!important;color:#765340!important}
+.store-header,.store-nav{background:#fff8ef!important;border-color:#e4c9a7!important}
+.store-header{box-shadow:0 8px 24px #7e4a1a14!important}
+.store-nav{color:#56382b!important}.store-nav a:after{background:var(--virasat-gold)!important}.store-nav a:hover{color:var(--virasat-clay)!important}
+.utility{color:#56382b!important}.store-hero{background:#765144!important}.store-hero:after{background:linear-gradient(90deg,#3f281ebf,transparent 74%)!important}
+.store-hero-copy p{color:#f3d59b!important}.store-hero-copy a,.shop-home .product-feature-meta .quick{background:#f6e5cc!important;color:var(--virasat-cocoa)!important;box-shadow:0 8px 20px #2e190d2e!important}
+.look-section{background:#f2e2cc!important}.look-section h2{color:var(--virasat-cocoa)!important}.look-section h2 i{color:var(--virasat-clay)!important}.look-section a{background:#fff9f1!important;border-color:#d9b889!important;color:#573a2d!important}.look-section a:hover{background:var(--virasat-clay)!important;border-color:var(--virasat-clay)!important;color:#fff!important}
+.category-section,.arrival-section{background:var(--virasat-ivory)!important}.category-section h2,.shop-title h2,.studio-story h2{color:var(--virasat-cocoa)!important}.category-section h2 i,.shop-title h2 i{color:var(--virasat-clay)!important}
+.category-grid span{background:#fff8efed!important;color:var(--virasat-cocoa)!important}.shop-home .product-feature-meta h3{color:var(--virasat-cocoa)!important}.shop-home .product-feature-meta b{color:var(--virasat-clay)!important}
+.studio-story{background:#e9d1b3!important}.studio-story a{color:var(--virasat-clay)!important}.feature-strip,.shop-home footer{background:var(--virasat-cocoa)!important}.shop-home .modal-card .add,.checkout-notice button{background:var(--virasat-clay)!important}
+
+/* Preserve the original photo logo at its natural, unaltered proportions. */
+.store-header{height:96px!important}
+.store-header .store-brand{height:92px!important}
+.store-header .virasat-wordmark{width:auto!important;height:100%!important;transform:none!important;object-fit:contain!important}
+@media(max-width:720px){.store-header{height:78px!important}.store-header .store-brand{height:70px!important}.store-header .virasat-wordmark{transform:none!important}}
+
+/* Text wordmark: a clean, scalable alternative to the photographic logo. */
+.store-header .store-brand{height:auto!important;width:auto!important;display:block!important;overflow:visible!important;text-align:center!important;color:var(--virasat-cocoa)!important;font:600 42px/0.78 Georgia,'Times New Roman',serif!important;letter-spacing:-.055em!important;text-shadow:none!important}
+.store-header .store-brand span{display:block!important;margin:12px 0 0!important;color:var(--virasat-gold)!important;font:700 8px/1 Arial,sans-serif!important;letter-spacing:.42em!important;text-transform:uppercase!important}
+footer .store-brand{width:auto!important;height:auto!important;display:block!important;overflow:visible!important;color:#fff7eb!important;font:600 38px/0.8 Georgia,'Times New Roman',serif!important;letter-spacing:-.055em!important;text-shadow:none!important}footer .store-brand span{display:block!important;margin:12px 0 0!important;color:#e8c17e!important;font:700 8px/1 Arial,sans-serif!important;letter-spacing:.4em!important;text-transform:uppercase!important}
+@media(max-width:720px){.store-header .store-brand{font-size:32px!important}.store-header .store-brand span{font-size:6px!important;margin-top:9px!important}}
+
+/* Restore compact dimensions whenever the graphical wordmark is present. */
+.store-header:has(.virasat-wordmark){height:146px!important}
+.store-header .store-brand:has(.virasat-wordmark){height:132px!important;width:100%!important;display:flex!important;align-items:center!important;justify-content:center!important;overflow:visible!important;font-size:0!important;line-height:1!important}
+.store-header .store-brand:has(.virasat-wordmark) .virasat-wordmark{display:block!important;width:260px!important;height:132px!important;max-width:100%!important;object-fit:contain!important;transform:scaleX(1.72)!important}
+footer .store-brand:has(.footer-wordmark){height:104px!important;width:180px!important;display:flex!important;align-items:center!important;overflow:hidden!important;font-size:0!important}footer .store-brand:has(.footer-wordmark) .footer-wordmark{width:100%!important;height:100%!important;object-fit:contain!important}
+@media(max-width:720px){.store-header:has(.virasat-wordmark){height:108px!important}.store-header .store-brand:has(.virasat-wordmark){height:94px!important;overflow:hidden!important}.store-header .store-brand:has(.virasat-wordmark) .virasat-wordmark{width:160px!important;height:94px!important;transform:none!important}}
+
+/* Typography-only logo inspired by the supplied VIRASAT reference. */
+.store-header{height:132px!important}
+.store-header .store-brand{height:auto!important;width:100%!important;display:flex!important;flex-direction:column!important;align-items:center!important;justify-content:center!important;overflow:visible!important;color:var(--virasat-cocoa)!important;font-family:Georgia,'Times New Roman',serif!important;text-align:center!important;text-shadow:none!important}
+.store-header .store-brand strong{display:block;font:600 clamp(42px,5.4vw,66px)/.73 Georgia,'Times New Roman',serif!important;letter-spacing:-.075em!important;color:var(--virasat-cocoa)!important}
+.store-header .store-brand span{display:block!important;margin:13px 0 0!important;color:#9f6a35!important;font:700 9px/1 Arial,sans-serif!important;letter-spacing:.52em!important;text-transform:uppercase!important}
+.store-header .store-brand i{display:block;margin-top:7px;color:#ba8441;font:14px/1 Georgia,serif;letter-spacing:.18em}
+footer .store-brand{height:auto!important;width:auto!important;display:flex!important;flex-direction:column!important;align-items:flex-start!important;overflow:visible!important;color:#fff7eb!important;font-family:Georgia,'Times New Roman',serif!important;text-shadow:none!important}footer .store-brand strong{font:600 38px/.75 Georgia,'Times New Roman',serif!important;letter-spacing:-.06em}footer .store-brand span{margin:12px 0 0!important;color:#e8c17e!important;font:700 8px/1 Arial,sans-serif!important;letter-spacing:.4em!important;text-transform:uppercase!important}footer .store-brand i{margin-top:7px;color:#e8c17e;font:12px Georgia,serif;letter-spacing:.14em}
+@media(max-width:720px){.store-header{height:104px!important}.store-header .store-brand strong{font-size:42px!important}.store-header .store-brand span{font-size:6px!important;margin-top:9px!important;letter-spacing:.42em!important}.store-header .store-brand i{margin-top:5px;font-size:10px!important}}
+
+/* Clean white canvas for the storefront and text wordmark. */
+.shop-home,.category-section,.arrival-section,.look-section{background:#f6f2eb!important}
+.store-header,.store-nav{background:#f6f2eb!important;border-color:#e1d8cc!important}
+.trust-bar{background:#f6f2eb!important;border-bottom:1px solid #e1d8cc!important}
+.arrival-section{padding-top:0!important}
+.arrival-section{padding-bottom:42px!important}
+.shop-title p{display:none!important}
+
+/* Newsletter fills the space between the saree collection and the story image. */
+.newsletter-after-shop{display:grid;grid-template-columns:minmax(0,1fr) minmax(360px,.9fr);gap:80px;align-items:center;padding:48px max(7vw,48px)!important;background:#f7ead8}
+@media(max-width:1000px){.newsletter-after-shop{grid-template-columns:1fr!important;gap:34px!important;padding:54px 48px!important}.newsletter-after-shop h2{font-size:44px!important;line-height:1.02!important}}
+@media(max-width:520px){.newsletter-after-shop{padding:46px 24px!important}.newsletter-after-shop h2{font-size:36px!important}}
+
+/* Top shopping shortcuts. */
+.store-header:has(.brand-utilities){grid-template-columns:120px minmax(250px,1fr) auto 92px!important;gap:12px}.brand-utilities{display:flex;align-items:center;justify-content:flex-end;gap:14px;color:#654536;font:700 9px/1 Arial,sans-serif;letter-spacing:.05em;text-transform:uppercase;white-space:nowrap}.brand-utilities button{border:0;background:transparent;padding:0;color:inherit;font:inherit;letter-spacing:inherit;text-transform:inherit;cursor:pointer}.brand-utilities b{display:inline-grid;place-items:center;min-width:15px;height:15px;margin-left:3px;border-radius:50%;background:#9f5c55;color:#fff;font-size:9px}@media(max-width:920px){.brand-utilities{display:none}.store-header:has(.brand-utilities){grid-template-columns:120px minmax(0,1fr) 92px!important}}
+
+/* Supplied brand artwork, presented as a header logo rather than a page background. */
+.store-header:has(.supplied-virasat-logo){height:204px!important}
+.store-header .store-brand:has(.supplied-virasat-logo){height:190px!important;width:100%!important;display:flex!important;align-items:center!important;justify-content:center!important;overflow:hidden!important}
+.store-header .supplied-virasat-logo{display:block;width:480px!important;height:190px!important;object-fit:contain!important;transform:none!important}
+@media(max-width:720px){.store-header:has(.supplied-virasat-logo){height:130px!important}.store-header .store-brand:has(.supplied-virasat-logo){height:116px!important}.store-header .supplied-virasat-logo{width:240px!important;height:116px!important}}
+
+/* Repeat the supplied transparent mark in the footer. */
+footer .store-brand:has(.footer-virasat-logo){width:350px!important;height:160px!important;display:flex!important;align-items:center!important;justify-content:flex-start!important;overflow:hidden!important}
+footer .footer-virasat-logo{display:block;width:350px!important;height:160px!important;object-fit:contain!important}
+@media(max-width:720px){footer .store-brand:has(.footer-virasat-logo){width:240px!important;height:110px!important}footer .footer-virasat-logo{width:240px!important;height:110px!important}}
+
+/* Compact footer wordmark to match the header logo. */
+footer .store-brand:has(.footer-virasat-logo){width:180px!important;height:112px!important;overflow:visible!important}
+footer .footer-virasat-logo{width:180px!important;height:112px!important;object-fit:contain!important}
+@media(max-width:720px){footer .store-brand:has(.footer-virasat-logo),footer .footer-virasat-logo{width:160px!important;height:100px!important}}
+
+/* Keep every logo letter and navigation label visible. */
+.store-header .store-brand:has(.supplied-virasat-logo){overflow:visible!important}
+.store-header .supplied-virasat-logo{max-width:none!important}
+.store-nav{overflow-x:auto!important;scrollbar-width:none;padding-left:18px!important;padding-right:18px!important}.store-nav::-webkit-scrollbar{display:none}.store-nav a{flex:0 0 auto}
+
+/* Keep shopping shortcuts beside the logo in the compact preview too. */
+@media(max-width:920px){
+  .store-header:has(.supplied-virasat-logo){height:142px!important}
+  .store-header:has(.brand-utilities){grid-template-columns:140px minmax(0,1fr)!important;gap:8px!important;padding-inline:14px!important;position:relative!important}
+  .store-header:has(.brand-utilities)>.utility.right{display:none!important}
+  .store-header .store-brand{order:1}
+  .store-header .utility:first-child{order:2;position:absolute!important;left:50%;transform:translateX(-50%);z-index:2}
+  .store-header .brand-utilities{order:3;justify-content:flex-end}
+  .store-header .store-brand:has(.supplied-virasat-logo){height:112px!important;justify-content:flex-start!important;overflow:visible!important}
+  .store-header .supplied-virasat-logo{width:180px!important;height:112px!important;object-fit:contain!important}
+  .brand-utilities{display:flex!important;gap:8px!important;font-size:11px!important;letter-spacing:0!important}
+}
+@media(max-width:520px){
+  .brand-utilities{gap:5px!important;font-size:9px!important}
+  .store-header:has(.brand-utilities){grid-template-columns:145px minmax(0,1fr)!important;padding-inline:8px!important}
+  .store-header .supplied-virasat-logo{width:140px!important;height:82px!important}
+}
+
+/* Boxed search control. */
+.store-header .utility:first-child{display:flex!important;align-items:center;justify-content:center;gap:10px;width:260px;height:52px;border:1px solid #c5a77e;border-radius:2px;color:#654536;background:#fffdf8;font:700 12px/1 Arial,sans-serif;letter-spacing:.05em;text-transform:uppercase}
+.store-header .utility:first-child button{border:0!important;background:transparent!important;padding:0!important;color:inherit!important;font-size:17px!important;line-height:1;cursor:pointer}
+.store-header .utility:first-child a{color:inherit!important;text-decoration:none!important}
+@media(max-width:520px){.store-header .utility:first-child{width:98px;height:36px;font-size:9px}.store-header .utility:first-child button{font-size:16px!important}}
+.orders-brand{display:flex!important;align-items:center!important;height:58px!important}.orders-brand img{display:block;width:116px;height:58px;object-fit:contain}
+.instagram-icon{display:grid!important;grid-template-columns:22px auto;align-items:center;column-gap:10px;color:#fff!important;text-decoration:none!important;font-size:13px!important;line-height:22px!important}.instagram-mark{display:block!important;width:22px!important;height:22px!important;line-height:0!important}.instagram-icon svg{display:block!important;width:22px!important;height:22px!important;fill:none!important;stroke:currentColor!important;stroke-width:1.7!important}.instagram-icon .instagram-dot{fill:currentColor!important;stroke:none!important}.instagram-label{display:block!important;position:static!important;margin:0!important;padding:0!important;white-space:nowrap!important;color:inherit!important;font:inherit!important;letter-spacing:.04em!important;text-transform:none!important}.instagram-icon:hover{color:#fff!important}
+.whatsapp-link{margin-top:4px!important}.whatsapp-link svg{stroke-linecap:round!important;stroke-linejoin:round!important}
+.product-detail-copy .purchase-buttons .modal-wishlist{background:#fffdf8!important;color:#704235!important;border-color:#704235!important}
+.brand-utilities #wishlistLink b{display:inline-grid;place-items:center;min-width:15px;height:15px;margin-left:3px;border-radius:50%;background:#9f5c55;color:#fff;font-size:9px}
+
+/* Keep every navigation name fully visible. */
+.store-nav{justify-content:space-between!important;gap:12px!important;padding-left:12px!important;padding-right:12px!important}
+.store-nav a{font-size:10px!important}
+
+/* Newsletter and support contact area. */
+.connection-section{display:grid;grid-template-columns:1fr 1fr;background:#fff;border-top:1px solid #eee4d7}.connection-section>div{padding:88px 11%;min-height:520px}.loop-panel{background:#f7ead8}.help-panel{background:#fff}.section-kicker{margin:0 0 18px;color:#9f6a35;font:700 10px/1 Arial,sans-serif;letter-spacing:.18em;text-transform:uppercase}.connection-section h2{margin:0;color:var(--virasat-cocoa);font:52px/.94 Georgia,'Times New Roman',serif;letter-spacing:-.05em}.connection-section h2 i{color:#9f6a35;font-weight:400}.connection-copy,.help-copy{margin:23px 0 0;color:#6b5448;font-size:14px;line-height:1.75}.newsletter-signup{display:flex;gap:10px;margin-top:42px;border-bottom:1px solid #7a5a43}.newsletter-signup input{min-width:0;flex:1;border:0;background:transparent;padding:15px 2px;color:var(--virasat-cocoa);font:14px Arial,sans-serif;outline:0}.newsletter-signup button,.help-form button{border:0;background:var(--virasat-cocoa);color:#fff;padding:14px 18px;font:700 10px Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase;white-space:nowrap;cursor:pointer}.newsletter-signup button span,.help-form button span{font-size:16px;margin-left:12px}.help-details{display:flex;flex-wrap:wrap;gap:12px 20px;margin:28px 0;color:#795842;font-size:12px}.help-details a{border-bottom:1px solid #d9b889;padding-bottom:3px}.help-form{display:grid;gap:14px;margin-top:28px}.help-form label{display:grid;gap:7px;color:#795842;font:700 10px Arial,sans-serif;letter-spacing:.1em;text-transform:uppercase}.help-form input,.help-form textarea{resize:vertical;border:0;border-bottom:1px solid #d9c6b1;background:transparent;padding:9px 2px;color:var(--virasat-cocoa);font:14px Arial,sans-serif;outline:0}.help-form textarea{border:1px solid #d9c6b1;padding:10px}.help-form button{justify-self:start;margin-top:4px}.help-form #helpNote{margin:0;color:#795842;font-size:12px}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}@media(max-width:720px){.connection-section{grid-template-columns:1fr}.connection-section>div{min-height:0;padding:62px 28px}.connection-section h2{font-size:42px}.newsletter-signup{margin-top:30px}}
+
+/* Full-width newsletter followed by side-by-side support, matching the reference structure. */
+.connection-section{display:block!important;border-top:0!important}
+.connection-section>div{min-height:0!important;padding:0!important}
+.connection-section>.loop-panel{display:grid;grid-template-columns:minmax(0,1fr) minmax(360px,.9fr);gap:80px;align-items:center;padding:48px max(7vw,48px)!important;background:#f7ead8}
+.loop-panel .newsletter-signup{margin-top:0}
+.loop-panel .connection-copy{margin:12px 0 0}
+.connection-section>.help-panel{display:grid;grid-template-columns:minmax(0,1fr) minmax(360px,.9fr);gap:90px;padding:110px max(7vw,48px)!important;background:#fbf1e6}
+.help-panel .help-form{margin-top:0}
+.help-panel .help-details{display:grid;gap:12px;margin:34px 0 0}
+@media(max-width:720px){.loop-panel,.help-panel{grid-template-columns:1fr;gap:34px;padding:58px 28px!important}.connection-section h2{font-size:42px}.loop-panel .newsletter-signup{margin-top:0}.help-panel .help-form{margin-top:0}}
+
+/* Give the contact area a calm single-column composition on narrower screens. */
+@media(max-width:1000px){
+  .connection-section>.loop-panel{grid-template-columns:1fr!important;gap:26px!important;padding:26px 48px 54px!important}
+  .connection-section>.help-panel{grid-template-columns:1fr!important;gap:34px!important;padding:54px 48px!important}
+  .connection-section h2{font-size:44px!important;line-height:1.02!important}
+  .loop-panel .newsletter-signup{max-width:100%;margin-top:0!important}
+  .help-panel .help-form{width:100%;margin-top:0!important}
+  .help-panel .help-details{margin-top:24px!important}
+}
+@media(max-width:520px){.connection-section>.loop-panel,.connection-section>.help-panel{padding:46px 24px!important}.connection-section h2{font-size:36px!important}}
+
+/* Move only the footer shop name/logo left. */
+footer>div:first-child{margin-left:0!important}
+footer .footer-virasat-logo{transform:translateX(-18px)!important}
+
+/* Shift only the header shop logo slightly right. */
+.store-header .store-brand:has(.supplied-virasat-logo){transform:translateX(12px)!important}
